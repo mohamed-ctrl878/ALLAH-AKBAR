@@ -306,6 +306,23 @@ header nav .form i{
         padding-left: 5px;
     }
 }
+
+@media (min-width: 1912px){
+.services .services-container {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)) !important;
+        grid-column-gap: 5%!important;
+        
+    }
+}
+@media (min-width: 1463px){
+    .services .services-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+        grid-column-gap: 40px;
+        grid-row-gap: 60px;
+    }
+}
 /* end services */
 /* sart design */
 .design{
